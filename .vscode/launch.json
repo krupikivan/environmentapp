@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // A name for the launch config. This will show in the dropdown on the Run side bar.
+            "name": "Hello World - WorlwideIcon",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            // "env": {
+            //     "RELEASE_MODE": true
+            // },
+            // Arguments to be passed to the Dart or Flutter app.
+            "args": [
+                "--dart-define", "NAME=world",
+                "--dart-define", "HELLOWORLD_APP_NAME=Worlwide",
+                "--dart-define", "HELLOWORLD_APP_SUFFIX=wor",
+                "--dart-define", "HELLOWORLD_APP_ICON=worlwide"
+            ],
+            // "debug", "profile" or "release".
+            "flutterMode": "debug",
+        },
+        {
+            // A name for the launch config. This will show in the dropdown on the Run side bar.
+            "name": "Hello World - LauncherIcon",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            // "env": {
+            //     "RELEASE_MODE": true
+            // },
+            // Arguments to be passed to the Dart or Flutter app.
+            "args": [
+                "--dart-define", "NAME=launch",
+                "--dart-define", "HELLOWORLD_APP_NAME=Launcher",
+                "--dart-define", "HELLOWORLD_APP_SUFFIX=.lau",
+                "--dart-define", "HELLOWORLD_APP_ICON=launcher"
+            ],
+            // "debug", "profile" or "release".
+            "flutterMode": "debug",
+        },
+    ]
+}
