@@ -1,4 +1,0 @@
-#Fri Aug 20 12:25:47 AMT 2021
-base.0=/media/ivan/Backup/Dev/helloworld/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
