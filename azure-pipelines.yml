@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: macOS-latest
 
 steps:
 - task: Hey24sheep.flutter.flutter-install.FlutterInstall@0
