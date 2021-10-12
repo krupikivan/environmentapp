@@ -11,14 +11,21 @@ pool:
   vmImage: macOS-latest
 
 steps:
-- task: Hey24sheep.flutter.flutter-install.FlutterInstall@0
-  displayName: 'Flutter Install'
+- task: FlutterInstall@0
   inputs:
-    version: custom
-    customVersion: 2.5.1
+    mode: 'auto'
+    channel: 'stable'
+    version: 'custom'
+    customVersion: '2.5.1'
+
 - task: CmdLine@2
   inputs:
     script: 'echo ''##vso[task.setvariable variable=path]$(PATH):/Users/runner/hostedtoolcache/Flutter/2.5.1-stable/macos/flutter/bin'''
 
-- script: 'flutter pub get'
-  displayName: 'Flutter Pub Get'
+- task: CmdLine@2
+  inputs:
+    script: 'flutter pub get'
+
+- task: CmdLine@2
+  inputs:
+    script: 'flutter build apk'
