@@ -1,4 +1,5 @@
 # Starter pipeline
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -10,10 +11,14 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: Hey24sheep.flutter.flutter-install.FlutterInstall@0
+  displayName: 'Flutter Install'
+  inputs:
+    version: custom
+    customVersion: 2.5.1
+- task: CmdLine@2
+  inputs:
+    script: 'echo ''##vso[task.setvariable variable=path]$(PATH):/Users/runner/hostedtoolcache/Flutter/2.5.1-stable/macos/flutter/bin'''
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- script: 'flutter pub get'
+  displayName: 'Flutter Pub Get'
