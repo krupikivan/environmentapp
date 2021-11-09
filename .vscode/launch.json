@@ -7,17 +7,6 @@
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
-            // "env": {
-            //     "RELEASE_MODE": true
-            // },
-            // Arguments to be passed to the Dart or Flutter app.
-            "args": [
-                "--dart-define", "NAME=world",
-                "--dart-define", "HELLOWORLD_APP_NAME=Worlwide",
-                "--dart-define", "HELLOWORLD_APP_SUFFIX=wor",
-                "--dart-define", "HELLOWORLD_APP_ICON=worlwide"
-            ],
-            // "debug", "profile" or "release".
             "flutterMode": "debug",
         },
         {
