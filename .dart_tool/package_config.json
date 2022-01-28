@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "archive",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/archive-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1",
       "packageUri": "lib/",
@@ -38,6 +44,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "crypto",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.3",
       "packageUri": "lib/",
@@ -56,8 +68,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "file",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_driver",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/packages/flutter_driver",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -70,6 +94,12 @@
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fuchsia_remote_debug_protocol",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/packages/fuchsia_remote_debug_protocol",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -152,8 +182,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "platform",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "plugin_platform_interface",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -188,6 +230,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "sync_http",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/sync_http-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.0",
       "packageUri": "lib/",
@@ -212,6 +260,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "vm_service",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/vm_service-6.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "webdriver",
+      "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/webdriver-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "win32",
       "rootUri": "file:///Users/krupikivan/sdk/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.2.5",
       "packageUri": "lib/",
@@ -224,7 +284,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-09-02T17:58:53.287998Z",
+  "generated": "2021-10-29T17:36:34.620375Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }
